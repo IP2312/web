@@ -1,0 +1,33 @@
+/* min() setzt den kleinsten (negativsten) Wert und kann mehrere Werte aufnehmen, welche durch Kommas getrennt werden */
+/* Stellen Sie sich den Wert min() als den maximalen Wert vor, den eine Eigenschaft haben kann. */
+/* https://runebook.dev/de/docs/css/min() */
+
+.min{
+    width: min(100%, 25vw);
+    background-color: lightgreen;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+/* max() setzt den größten (positivsten) Wert und kann mehrere Werte aufnehmen, welche durch Kommas getrennt werden */
+/* Stellen Sie sich die Funktion max() so vor, als ob Sie den für eine Eigenschaft zulässigen Mindestwert ermitteln. */
+/* https://runebook.dev/de/docs/css/max() */
+
+.max{
+    font-size: max(5vw, 2em);
+    text-align: center;
+    margin: 2% 0 auto;
+
+}
+
+/* clamp() klemmt einen Wert zwischen einer oberen und einer unteren Grenze. */
+/* Die Funktion clamp() als Parameter drei durch Kommas getrennte Ausdrücke in der Reihenfolge Minimalwert, bevorzugter Wert, Maximalwert. */
+/* https://runebook.dev/de/docs/css/clamp() */
+
+.clamp{
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 2% 0 auto;
+}

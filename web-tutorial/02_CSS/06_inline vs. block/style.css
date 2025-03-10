@@ -1,0 +1,25 @@
+/* inline Boxen */
+/* Versuche den inline Elementen eine width: 200px und eine height: 200px zu geben*/
+/* Versuche den block Elementen eine width: 200px und eine height: 200px zu geben*/
+
+
+.inline *{
+
+}
+
+.block *{
+
+}
+
+
+/* Diesen Code nicht verändern!*/
+.inline, .block{
+    border: 3px solid lightseagreen;
+    padding: 2%;
+}
+
+.inline *, .block *{
+    border: 3px solid black;
+    padding: 1%;
+    margin: 2% 0;
+}

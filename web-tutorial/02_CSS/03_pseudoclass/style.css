@@ -1,0 +1,22 @@
+/*Styling eines links*/
+/*Reihenfolge beachten*/
+
+/* unvisited link */
+a:link {
+
+}
+
+/* visited link */
+a:visited {
+
+}
+
+/* mouse over link */
+a:hover {
+
+}
+
+/* selected link */
+a:active {
+
+}
