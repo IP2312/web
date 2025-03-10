@@ -3,20 +3,20 @@
 
 /* unvisited link */
 a:link {
-
+    color:green;
 }
 
 /* visited link */
 a:visited {
-
+    color:deeppink;
 }
 
 /* mouse over link */
 a:hover {
-
+    background-color: aqua;
 }
 
 /* selected link */
 a:active {
-
+    color: red;
 }

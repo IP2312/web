@@ -1,14 +1,29 @@
 /*Elementselektor*/
+p {
+    color: red;
+}
 
 /*Klassenselektor*/
-
+.big{
+    font-size: 25px;
+    color: blue;
+}
 /*Id-Selektor*/
+#abc{
+    background-color: green;
+}
 
 /*Gruppieren*/
+h2, a{
+    color: green;
+}
 
 /*Universalselektor*/
 
-
+* {
+    color:cyan;
+    border: 1px solid black;
+}
 
 
 

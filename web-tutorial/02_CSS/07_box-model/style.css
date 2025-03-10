@@ -1,9 +1,19 @@
+*{
+    box-sizing:border-box;
+}
+
 .one{
    background: lightcoral;
+    padding-bottom: 10%;
+    border: 10px dotted #0000FF;
+    width: 50%
 }
 .two{
+    margin-top: 50px;
     background: lightseagreen;
+    width: 50%
 }
 .three{
     background: deepskyblue;
+
 }

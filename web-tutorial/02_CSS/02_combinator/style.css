@@ -1,9 +1,14 @@
 /*Nachfahren Kombinator werden durch Leerzeichen getrennt*/
+nav span {
+    color:cyan;
+}
 
 /*zwei Typselektoren*/
 
 /*Kindkombinator (child combinator) ">" */
-
+nav > span {
+    color:red;
+}
 /*Nachbarkombinator (adjacent sibling combinator) "+" */
 
 /*Allgemeiner Geschwister Kombinator (general sibling generator) "~" */

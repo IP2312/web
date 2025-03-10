@@ -1,7 +1,14 @@
 /*Pseudoelemente*/
 
 /* ::before and ::after */
-
+h1::before {
+    content:"-->"
+}
 /* ::first-letter */
-
+p::first-letter {
+    font-size:40px;
+}
 /* ::first-line */
+p::first-line {
+    background-color: cyan;
+}
