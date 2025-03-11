@@ -1,0 +1,99 @@
+/* mobile first 576px */
+:root {
+    --banner-bg-color: #226666;
+    --link-bg-color: #669999;
+    --banner-font-clr: #FFFFFF;
+    --border-rad: 10px;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: var(--banner-bg-color);
+    padding: 2%;
+}
+
+h1 {
+    color: var(--banner-font-clr);
+    font-size: clamp(4rem, 1.204rem + 7.767vw, 8rem);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* auf gesammte fläche bezogen bei list item nur schrift */
+li a {
+    color: var(--banner-font-clr);
+    font-size: clamp(2rem, 1.301rem + 1.942vw, 3rem);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--link-bg-color);
+    width: 80%;
+    display: inline-block; /* soll sich wie blockelement verhalten */
+    padding: 1%;
+    margin: 3% 10%;
+    border-radius: var(--border-rad);
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+}
+
+article {
+    margin-bottom: 10%;
+}
+
+article img {
+    width: 100%;
+}
+
+section h3 {
+    font-size: clamp(1.5rem, 0.451rem + 2.913vw, 3rem);
+    margin: 0;
+}
+
+section p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1400px){
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    li {
+        width: 900px
+    }
+
+    article {
+        display: flex;
+        align-items: center;
+        /* gab zwischen zwei flex */
+        gap: 2%;
+
+    }
+
+    section {
+        max-width: 60%;
+
+    }
+
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
